@@ -1,21 +1,17 @@
-
-
-import './App.css'
-import Header from "./Components/header.jsx"
-import Main from "./Components/Home.jsx"
-import Footer from "./Components/footer.jsx"
+import "./App.css";
+import Header from "./Components/header.jsx";
+import Footer from "./Components/footer.jsx";
+import Main from "./Components/Home.jsx";
 function App() {
-  
-
   return (
     <>
-    <div className='App-container'>
-      <Header></Header>
-      <Main></Main>
-      <Footer></Footer>
-    </div>
+      <div className="App-container">
+        <Header />
+        <Main />
+        <Footer/>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

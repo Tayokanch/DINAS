@@ -1,5 +1,4 @@
 .main {
-    grid-area: main;
     background-color: palevioletred;
     display: grid;
     padding: 50px;
